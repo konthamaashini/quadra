@@ -1,0 +1,79 @@
+[0.015s] Invoking command in '/home/aashini/quadra/build/unitree': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aashini/quadra/build/unitree -- -j16 -l16
+[0.034s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.149s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.348s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.349s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.353s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.360s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.368s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.391s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.393s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.871s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.946s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[11.971s] -- Looking for ignition-math6 -- found version 6.15.1
+[11.975s] -- Searching for dependencies of ignition-math6
+[11.976s] -- Looking for OGRE...
+[11.981s] -- Found Ogre Ghadamon (1.9.0)
+[11.981s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[11.992s] -- Looking for OGRE_Paging...
+[11.993s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[11.993s] -- Looking for OGRE_Terrain...
+[11.993s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[11.993s] -- Looking for OGRE_Property...
+[11.993s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[11.993s] -- Looking for OGRE_RTShaderSystem...
+[11.993s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[11.993s] -- Looking for OGRE_Volume...
+[11.993s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[11.993s] -- Looking for OGRE_Overlay...
+[11.993s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[77.255s] -- Looking for ignition-math6 -- found version 6.15.1
+[77.256s] -- Looking for ignition-transport8 -- found version 8.2.1
+[77.256s] -- Searching for dependencies of ignition-transport8
+[78.952s] -- Checking for module 'uuid'
+[78.964s] --   Found uuid, version 2.37.2
+[78.992s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[78.993s] -- Searching for dependencies of ignition-msgs5
+[79.103s] -- Looking for ignition-math6 -- found version 6.15.1
+[79.108s] -- Checking for module 'tinyxml2'
+[79.119s] --   Found tinyxml2, version 9.0.0
+[79.147s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[79.148s] -- Looking for ignition-common3 -- found version 3.14.0
+[79.148s] -- Searching for dependencies of ignition-common3
+[79.148s] -- Looking for dlfcn.h - found
+[79.148s] -- Looking for libdl - found
+[79.584s] -- Searching for <ignition-common3> component [graphics]
+[79.584s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[79.585s] -- Searching for dependencies of ignition-common3-graphics
+[79.585s] -- Looking for ignition-math6 -- found version 6.15.1
+[79.586s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[79.586s] -- Searching for dependencies of ignition-fuel_tools4
+[83.110s] -- Checking for module 'jsoncpp'
+[83.123s] --   Found jsoncpp, version 1.9.5
+[83.158s] -- Checking for module 'libzip'
+[83.169s] --   Found libzip, version 1.7.3
+[83.195s] -- Looking for ignition-common3 -- found version 3.14.0
+[83.195s] -- Looking for ignition-math6 -- found version 6.15.1
+[83.195s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[83.196s] -- Gazebo version: 11.10
+[86.125s] [31mCMake Error at CMakeLists.txt:7 (find_package):
+[86.125s]   By not providing "Findjoint_state_publisher.cmake" in CMAKE_MODULE_PATH
+[86.125s]   this project has asked CMake to find a package configuration file provided
+[86.125s]   by "joint_state_publisher", but CMake did not find one.
+[86.125s] 
+[86.125s]   Could not find a package configuration file provided by
+[86.125s]   "joint_state_publisher" with any of the following names:
+[86.125s] 
+[86.125s]     joint_state_publisherConfig.cmake
+[86.125s]     joint_state_publisher-config.cmake
+[86.125s] 
+[86.126s]   Add the installation prefix of "joint_state_publisher" to CMAKE_PREFIX_PATH
+[86.126s]   or set "joint_state_publisher_DIR" to a directory containing one of the
+[86.126s]   above files.  If "joint_state_publisher" provides a separate development
+[86.126s]   package or SDK, be sure it has been installed.
+[86.126s] 
+[86.126s] [0m
+[86.126s] -- Configuring incomplete, errors occurred!
+[86.126s] See also "/home/aashini/quadra/build/unitree/CMakeFiles/CMakeOutput.log".
+[86.136s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[86.139s] Invoked command in '/home/aashini/quadra/build/unitree' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aashini/quadra/build/unitree -- -j16 -l16

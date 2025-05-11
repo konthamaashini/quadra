@@ -1,0 +1,9 @@
+/home/aashini/quadra/build/unitree/CMakeFiles/uninstall.dir
+/home/aashini/quadra/build/unitree/CMakeFiles/unitree_uninstall.dir
+/home/aashini/quadra/build/unitree/CMakeFiles/test.dir
+/home/aashini/quadra/build/unitree/CMakeFiles/edit_cache.dir
+/home/aashini/quadra/build/unitree/CMakeFiles/rebuild_cache.dir
+/home/aashini/quadra/build/unitree/CMakeFiles/list_install_components.dir
+/home/aashini/quadra/build/unitree/CMakeFiles/install.dir
+/home/aashini/quadra/build/unitree/CMakeFiles/install/local.dir
+/home/aashini/quadra/build/unitree/CMakeFiles/install/strip.dir
