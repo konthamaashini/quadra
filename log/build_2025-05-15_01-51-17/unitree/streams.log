@@ -1,0 +1,39 @@
+[0.027s] Invoking command in '/home/aashini/quadra/build/unitree': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aashini/quadra/build/unitree -- -j16 -l16
+[0.135s] Invoked command in '/home/aashini/quadra/build/unitree' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aashini/quadra/build/unitree -- -j16 -l16
+[0.148s] Invoking command in '/home/aashini/quadra/build/unitree': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aashini/quadra/build/unitree
+[0.164s] -- Install configuration: ""
+[0.165s] -- Up-to-date: /home/aashini/quadra/install/unitree/lib/unitree/teleop.py
+[0.165s] -- Up-to-date: /home/aashini/quadra/install/unitree/lib/unitree/joint_control_gui.py
+[0.165s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/launch
+[0.165s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/launch/go2_urdflaunch.py
+[0.165s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/urdf
+[0.165s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/urdf/go2_urdf.urdf
+[0.165s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/config
+[0.165s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/config/controllers.yaml
+[0.165s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/mesh
+[0.165s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/mesh/thigh.dae
+[0.166s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/mesh/calf_mirror.dae
+[0.166s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/mesh/base.dae
+[0.166s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/mesh/thigh_mirror.dae
+[0.166s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/mesh/hip.dae
+[0.166s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/mesh/calf.dae
+[0.166s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/mesh/foot.dae
+[0.166s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/worlds
+[0.166s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/worlds/empty.world
+[0.166s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/urdf
+[0.166s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/ament_index/resource_index/package_run_dependencies/unitree
+[0.166s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/ament_index/resource_index/parent_prefix_path/unitree
+[0.166s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/environment/ament_prefix_path.sh
+[0.166s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/environment/ament_prefix_path.dsv
+[0.166s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/environment/path.sh
+[0.166s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/environment/path.dsv
+[0.166s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/local_setup.bash
+[0.166s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/local_setup.sh
+[0.167s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/local_setup.zsh
+[0.167s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/local_setup.dsv
+[0.167s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/package.dsv
+[0.167s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/ament_index/resource_index/packages/unitree
+[0.167s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/cmake/unitreeConfig.cmake
+[0.167s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/cmake/unitreeConfig-version.cmake
+[0.167s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/package.xml
+[0.170s] Invoked command in '/home/aashini/quadra/build/unitree' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aashini/quadra/build/unitree

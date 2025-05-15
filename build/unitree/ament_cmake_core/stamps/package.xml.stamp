@@ -3,7 +3,7 @@
 <package format="3">
   <name>unitree</name>
   <version>0.0.0</version>
-  <description>ROS 2 package for simulating the Unitree Go2 robot in Gazebo Classic</description>
+  <description>ROS 2 package for simulating the Unitree Go2 robot in Gazebo Classic with teleoperation and joint control</description>
   <maintainer email="aashiniredy22@gmail.com">aashini</maintainer>
   <license>Apache License 2.0</license>
 
@@ -16,6 +16,11 @@
   <depend>rclpy</depend>
   <depend>geometry_msgs</depend>
   <depend>sensor_msgs</depend>
+  <depend>trajectory_msgs</depend>
+  <depend>controller_manager</depend>
+  <depend>ros2_control</depend>
+  <depend>ros2_controllers</depend>
+  <depend>gazebo_ros2_control</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>

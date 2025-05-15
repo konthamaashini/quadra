@@ -1,0 +1,111 @@
+[0.044s] Invoking command in '/home/aashini/quadra/build/unitree': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aashini/quadra/build/unitree -- -j16 -l16
+[0.543s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.806s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.152s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.161s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.183s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.220s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.260s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.366s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.372s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[16.215s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[16.440s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[16.541s] -- Looking for ignition-math6 -- found version 6.15.1
+[16.562s] -- Searching for dependencies of ignition-math6
+[16.570s] -- Looking for OGRE...
+[16.579s] -- Found Ogre Ghadamon (1.9.0)
+[16.580s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[16.594s] -- Looking for OGRE_Paging...
+[16.594s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[16.594s] -- Looking for OGRE_Terrain...
+[16.594s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[16.595s] -- Looking for OGRE_Property...
+[16.595s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[16.595s] -- Looking for OGRE_RTShaderSystem...
+[16.595s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[16.595s] -- Looking for OGRE_Volume...
+[16.595s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[16.595s] -- Looking for OGRE_Overlay...
+[16.596s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[79.753s] -- Looking for ignition-math6 -- found version 6.15.1
+[79.763s] -- Looking for ignition-transport8 -- found version 8.2.1
+[79.764s] -- Searching for dependencies of ignition-transport8
+[81.902s] -- Checking for module 'uuid'
+[81.919s] --   Found uuid, version 2.37.2
+[81.965s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[81.966s] -- Searching for dependencies of ignition-msgs5
+[82.142s] -- Looking for ignition-math6 -- found version 6.15.1
+[82.148s] -- Checking for module 'tinyxml2'
+[82.166s] --   Found tinyxml2, version 9.0.0
+[82.223s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[82.225s] -- Looking for ignition-common3 -- found version 3.14.0
+[82.227s] -- Searching for dependencies of ignition-common3
+[82.228s] -- Looking for dlfcn.h - found
+[82.228s] -- Looking for libdl - found
+[82.747s] -- Searching for <ignition-common3> component [graphics]
+[82.749s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[82.750s] -- Searching for dependencies of ignition-common3-graphics
+[82.751s] -- Looking for ignition-math6 -- found version 6.15.1
+[82.757s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[82.758s] -- Searching for dependencies of ignition-fuel_tools4
+[87.401s] -- Checking for module 'jsoncpp'
+[87.425s] --   Found jsoncpp, version 1.9.5
+[87.489s] -- Checking for module 'libzip'
+[87.507s] --   Found libzip, version 1.7.3
+[87.554s] -- Looking for ignition-common3 -- found version 3.14.0
+[87.555s] -- Looking for ignition-math6 -- found version 6.15.1
+[87.556s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[87.562s] -- Gazebo version: 11.10
+[87.565s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[87.627s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[87.630s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[90.400s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[90.402s] -- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+[90.408s] -- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[90.464s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[90.622s] -- Added test 'copyright' to check source files copyright and LICENSE
+[90.630s] -- Added test 'flake8' to check Python code syntax and style conventions
+[90.631s] -- Added test 'lint_cmake' to check CMake code style
+[90.632s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[90.634s] -- Added test 'xmllint' to check XML markup files
+[90.637s] -- Configuring done
+[90.808s] -- Generating done
+[90.817s] -- Build files have been written to: /home/aashini/quadra/build/unitree
+[90.872s] Invoked command in '/home/aashini/quadra/build/unitree' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aashini/quadra/build/unitree -- -j16 -l16
+[90.891s] Invoking command in '/home/aashini/quadra/build/unitree': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aashini/quadra/build/unitree
+[90.903s] -- Install configuration: ""
+[90.905s] -- Up-to-date: /home/aashini/quadra/install/unitree/lib/unitree/teleop.py
+[90.905s] -- Installing: /home/aashini/quadra/install/unitree/lib/unitree/joint_control_gui.py
+[90.906s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/launch
+[90.907s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/launch/go2_urdflaunch.py
+[90.907s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/urdf
+[90.908s] -- Installing: /home/aashini/quadra/install/unitree/share/unitree/urdf/go2_urdf.urdf
+[90.910s] -- Installing: /home/aashini/quadra/install/unitree/share/unitree/config
+[90.911s] -- Installing: /home/aashini/quadra/install/unitree/share/unitree/config/controllers.yaml
+[90.912s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/mesh
+[90.914s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/mesh/thigh.dae
+[90.914s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/mesh/calf_mirror.dae
+[90.914s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/mesh/base.dae
+[90.914s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/mesh/thigh_mirror.dae
+[90.914s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/mesh/hip.dae
+[90.915s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/mesh/calf.dae
+[90.915s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/mesh/foot.dae
+[90.915s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/worlds
+[90.916s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/worlds/empty.world
+[90.916s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/urdf
+[90.916s] -- Installing: /home/aashini/quadra/install/unitree/share/ament_index/resource_index/package_run_dependencies/unitree
+[90.917s] -- Installing: /home/aashini/quadra/install/unitree/share/ament_index/resource_index/parent_prefix_path/unitree
+[90.918s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/environment/ament_prefix_path.sh
+[90.918s] -- Installing: /home/aashini/quadra/install/unitree/share/unitree/environment/ament_prefix_path.dsv
+[90.919s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/environment/path.sh
+[90.919s] -- Installing: /home/aashini/quadra/install/unitree/share/unitree/environment/path.dsv
+[90.920s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/local_setup.bash
+[90.920s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/local_setup.sh
+[90.920s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/local_setup.zsh
+[90.920s] -- Installing: /home/aashini/quadra/install/unitree/share/unitree/local_setup.dsv
+[90.921s] -- Installing: /home/aashini/quadra/install/unitree/share/unitree/package.dsv
+[90.921s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/ament_index/resource_index/packages/unitree
+[90.922s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/cmake/unitreeConfig.cmake
+[90.922s] -- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/cmake/unitreeConfig-version.cmake
+[90.922s] -- Installing: /home/aashini/quadra/install/unitree/share/unitree/package.xml
+[90.926s] Invoked command in '/home/aashini/quadra/build/unitree' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aashini/quadra/build/unitree

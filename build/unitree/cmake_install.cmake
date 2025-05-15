@@ -43,16 +43,24 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/unitree" TYPE PROGRAM FILES "/home/aashini/quadra/src/unitree/scripts/teleop.py")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/unitree" TYPE PROGRAM FILES
+    "/home/aashini/quadra/src/unitree/scripts/teleop.py"
+    "/home/aashini/quadra/src/unitree/scripts/joint_control_gui.py"
+    )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree/" TYPE DIRECTORY FILES
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree" TYPE DIRECTORY FILES
+    "/home/aashini/quadra/src/unitree/launch"
     "/home/aashini/quadra/src/unitree/urdf"
+    "/home/aashini/quadra/src/unitree/config"
     "/home/aashini/quadra/src/unitree/mesh"
     "/home/aashini/quadra/src/unitree/worlds"
-    "/home/aashini/quadra/src/unitree/launch"
     )
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree" TYPE DIRECTORY FILES "/home/aashini/quadra/src/unitree/urdf" FILES_MATCHING REGEX "/[^/]*\\.xacro$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

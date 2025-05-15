@@ -10,7 +10,7 @@ from launch.actions import (
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch_ros.actions import Node
 from launch_ros.descriptions import ParameterValue
-from launch.substitutions import Command, LaunchConfiguration
+from launch.substitutions import Command, LaunchConfiguration, PathJoinSubstitution
 
 def validate_urdf(context, *args, **kwargs):
     urdf_path = context.launch_configurations['urdf_path']
@@ -22,10 +22,12 @@ def generate_launch_description():
     # Define package and file paths
     package_name = 'unitree'
     urdf_file = 'urdf/go2_urdf.urdf'
+    controller_file = 'config/controllers.yaml'
 
     # Paths
     pkg_share = get_package_share_directory(package_name)
     default_urdf_path = os.path.join(pkg_share, urdf_file)
+    controller_config_path = os.path.join(pkg_share, controller_file)
     world_file_path = os.path.join(get_package_share_directory('gazebo_ros'), 'worlds', 'empty.world')
 
     # Declare LaunchConfiguration for urdf_path
@@ -77,6 +79,30 @@ def generate_launch_description():
         output='screen'
     )
 
+    # Controller Manager Node (ros2_control_node)
+    controller_manager_node = Node(
+        package='controller_manager',
+        executable='ros2_control_node',
+        parameters=[{'robot_description': robot_description}, controller_config_path],
+        output='screen'
+    )
+
+    # Spawn Joint State Broadcaster
+    joint_state_broadcaster_spawner = Node(
+        package='controller_manager',
+        executable='spawner',
+        arguments=['joint_state_broadcaster', '--controller-manager', '/controller_manager'],
+        output='screen'
+    )
+
+    # Spawn Go2 Controller (JointTrajectoryController)
+    go2_controller_spawner = Node(
+        package='controller_manager',
+        executable='spawner',
+        arguments=['go2_controller', '--controller-manager', '/controller_manager'],
+        output='screen'
+    )
+
     # Suppress ALSA warnings
     suppress_alsa_warnings = SetEnvironmentVariable(
         name='ALSA_CONFIG_PATH',
@@ -94,5 +120,8 @@ def generate_launch_description():
         robot_state_publisher_node,
         joint_state_publisher_node,
         gazebo_launch,
-        spawn_entity_node
+        spawn_entity_node,
+        controller_manager_node,
+        joint_state_broadcaster_spawner,
+        go2_controller_spawner
     ])
