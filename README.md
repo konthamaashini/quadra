@@ -8,7 +8,7 @@ This repository contains the ROS 2 package for the Unitree Go2 quadruped robot. 
 
 ## Package Structure
 
-```plaintext
+
 unitree/
 ├── CMakeLists.txt                    # CMake build script
 ├── package.xml                       # ROS 2 package manifest
@@ -20,10 +20,12 @@ unitree/
 ├── src/                              # C++ source files (if any)
 ├── urdf/                             # Robot URDF and Xacro files
 ├── worlds/                           # Custom Gazebo world files
-
+```
 # Create workspace if not already created
+```plaintext
 mkdir -p ~/quadra/src
 cd ~/quadra/src
+```plaintext
 
 # Clone the package
 git clone <repository_url>
