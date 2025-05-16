@@ -20,7 +20,7 @@ unitree/
 ├── src/                              # C++ source files (if any)
 ├── urdf/                             # Robot URDF and Xacro files
 ├── worlds/                           # Custom Gazebo world files
-```
+
 # Create workspace if not already created
 ```plaintext
 mkdir -p ~/quadra/src
