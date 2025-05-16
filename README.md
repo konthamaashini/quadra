@@ -7,8 +7,7 @@ This repository contains the ROS 2 package for the Unitree Go2 quadruped robot. 
 ---
 
 ## Package Structure
-
-
+```plaintext
 unitree/
 ├── CMakeLists.txt                    # CMake build script
 ├── package.xml                       # ROS 2 package manifest
