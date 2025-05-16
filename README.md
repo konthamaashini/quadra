@@ -2,8 +2,7 @@
 
 ## Overview
 
-This repository contains the ROS 2 package for the Unitree Go2 quadruped robot. It includes the robot description, 3D mesh files for visualization, control scripts, and launch files to simulate the robot in Gazebo and visualize it in RViz.
-
+This repository contains the ROS 2 package for the Unitree Go2 quadruped robot. It includes the robot description, 3D mesh files for visualization, control scripts, and launch files to simulate the robot in Gazebo .
 ---
 
 ## Package Structure
@@ -20,16 +19,15 @@ unitree/
 ├── urdf/                             # Robot URDF and Xacro files
 ├── worlds/                           # Custom Gazebo world files
 
-# Create workspace if not already created
-```plaintext
+Create workspace if not already created:
 mkdir -p ~/quadra/src
 cd ~/quadra/src
-```plaintext
 
-# Clone the package
+
+Clone the package:
 git clone <repository_url>
 
-# Build the package
+Build the package:
 cd ~/quadra
 colcon build --packages-select unitree
 source install/setup.bash
