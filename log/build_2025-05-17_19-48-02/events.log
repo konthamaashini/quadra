@@ -1,0 +1,731 @@
+[0.000000] (-) TimerEvent: {}
+[0.000189] (unitree) JobQueued: {'identifier': 'unitree', 'dependencies': OrderedDict()}
+[0.000219] (unitree) JobStarted: {'identifier': 'unitree'}
+[0.012503] (unitree) JobProgress: {'identifier': 'unitree', 'progress': 'cmake'}
+[0.012908] (unitree) JobProgress: {'identifier': 'unitree', 'progress': 'build'}
+[0.014977] (unitree) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/aashini/quadra/build/unitree', '--', '-j16', '-l16'], 'cwd': '/home/aashini/quadra/build/unitree', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/aashini/aash/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aashini'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aashini'), ('OLDPWD', '/home/aashini'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aashini'), ('ONSHAPE_SECRET_KEY', 'ECuBFssnApER2P3ZEjRt2DPQwaeAj58RgKeuL2sCAxqjKYxl'), ('NAME', 'DESKTOP-GCGNIPN'), ('WSL_INTEROP', '/run/WSL/4059_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/home/aashini/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/aashini/.local/bin:/home/aashini/.local/bin:/home/aashini/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/MATLAB/R2025a/bin:/mnt/c/Users/Aashini/.cargo/bin:/mnt/c/Users/Aashini/Documents/ANACONDA:/mnt/c/Users/Aashini/Documents/ANACONDA/Library/mingw-w64/bin:/mnt/c/Users/Aashini/Documents/ANACONDA/Library/usr/bin:/mnt/c/Users/Aashini/Documents/ANACONDA/Library/bin:/mnt/c/Users/Aashini/Documents/ANACONDA/Scripts:/mnt/c/Users/Aashini/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Aashini/AppData/Local/Programs/Python/Python311/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/Aashini/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Aashini/Desktop/ROBOTICS SOFTWARE/Microsoft VS Code/bin:/mnt/c/Users/Aashini/.dotnet/tools:/snap/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/home/aashini/.ros/fastdds_profile.xml'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/aashini/aash/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/aashini/quadra/build/unitree'), ('TURTLEBOT3_MODEL', 'burger'), ('ONSHAPE_ACCESS_KEY', 'xSzP2mSHygiCiLEA3TUhpu3s'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ONSHAPE_API', 'https://cad.onshape.com'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/aashini/aash/install:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[0.098719] (-) TimerEvent: {}
+[0.158462] (unitree) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199224] (-) TimerEvent: {}
+[0.303297] (-) TimerEvent: {}
+[0.355391] (unitree) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[0.405345] (-) TimerEvent: {}
+[0.509562] (-) TimerEvent: {}
+[0.613600] (-) TimerEvent: {}
+[0.633610] (unitree) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.642375] (unitree) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.660512] (unitree) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.687689] (unitree) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.713823] (unitree) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.714088] (-) TimerEvent: {}
+[0.791962] (unitree) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.798665] (unitree) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.814812] (-) TimerEvent: {}
+[0.919021] (-) TimerEvent: {}
+[1.023697] (-) TimerEvent: {}
+[1.125022] (-) TimerEvent: {}
+[1.229412] (-) TimerEvent: {}
+[1.333643] (-) TimerEvent: {}
+[1.437649] (-) TimerEvent: {}
+[1.541690] (-) TimerEvent: {}
+[1.645381] (-) TimerEvent: {}
+[1.749468] (-) TimerEvent: {}
+[1.853554] (-) TimerEvent: {}
+[1.957643] (-) TimerEvent: {}
+[2.061662] (-) TimerEvent: {}
+[2.165645] (-) TimerEvent: {}
+[2.269722] (-) TimerEvent: {}
+[2.373778] (-) TimerEvent: {}
+[2.477913] (-) TimerEvent: {}
+[2.581926] (-) TimerEvent: {}
+[2.685665] (-) TimerEvent: {}
+[2.789647] (-) TimerEvent: {}
+[2.893621] (-) TimerEvent: {}
+[2.994211] (-) TimerEvent: {}
+[3.097993] (-) TimerEvent: {}
+[3.201971] (-) TimerEvent: {}
+[3.306012] (-) TimerEvent: {}
+[3.407673] (-) TimerEvent: {}
+[3.511753] (-) TimerEvent: {}
+[3.615685] (-) TimerEvent: {}
+[3.719576] (-) TimerEvent: {}
+[3.823637] (-) TimerEvent: {}
+[3.924816] (-) TimerEvent: {}
+[4.028820] (-) TimerEvent: {}
+[4.132733] (-) TimerEvent: {}
+[4.236645] (-) TimerEvent: {}
+[4.340598] (-) TimerEvent: {}
+[4.444575] (-) TimerEvent: {}
+[4.548623] (-) TimerEvent: {}
+[4.652570] (-) TimerEvent: {}
+[4.756150] (-) TimerEvent: {}
+[4.859998] (-) TimerEvent: {}
+[4.963856] (-) TimerEvent: {}
+[5.067678] (-) TimerEvent: {}
+[5.171582] (-) TimerEvent: {}
+[5.275427] (-) TimerEvent: {}
+[5.379403] (-) TimerEvent: {}
+[5.483259] (-) TimerEvent: {}
+[5.587313] (-) TimerEvent: {}
+[5.688312] (-) TimerEvent: {}
+[5.789225] (-) TimerEvent: {}
+[5.889965] (-) TimerEvent: {}
+[5.991156] (-) TimerEvent: {}
+[6.095338] (-) TimerEvent: {}
+[6.199503] (-) TimerEvent: {}
+[6.303448] (-) TimerEvent: {}
+[6.407333] (-) TimerEvent: {}
+[6.511286] (-) TimerEvent: {}
+[6.615120] (-) TimerEvent: {}
+[6.719036] (-) TimerEvent: {}
+[6.822889] (-) TimerEvent: {}
+[6.926744] (-) TimerEvent: {}
+[7.030736] (-) TimerEvent: {}
+[7.134791] (-) TimerEvent: {}
+[7.238723] (-) TimerEvent: {}
+[7.342664] (-) TimerEvent: {}
+[7.446653] (-) TimerEvent: {}
+[7.550658] (-) TimerEvent: {}
+[7.654723] (-) TimerEvent: {}
+[7.758578] (-) TimerEvent: {}
+[7.862331] (-) TimerEvent: {}
+[7.966241] (-) TimerEvent: {}
+[8.070388] (-) TimerEvent: {}
+[8.171477] (-) TimerEvent: {}
+[8.272068] (-) TimerEvent: {}
+[8.372926] (-) TimerEvent: {}
+[8.473670] (-) TimerEvent: {}
+[8.577827] (-) TimerEvent: {}
+[8.681912] (-) TimerEvent: {}
+[8.785831] (-) TimerEvent: {}
+[8.889576] (-) TimerEvent: {}
+[8.993468] (-) TimerEvent: {}
+[9.097550] (-) TimerEvent: {}
+[9.201841] (-) TimerEvent: {}
+[9.305797] (-) TimerEvent: {}
+[9.310083] (unitree) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[9.409389] (-) TimerEvent: {}
+[9.486432] (unitree) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[9.509867] (-) TimerEvent: {}
+[9.556688] (unitree) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[9.572407] (unitree) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[9.579129] (unitree) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[9.588083] (unitree) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[9.588940] (unitree) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[9.597547] (unitree) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[9.597772] (unitree) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[9.597919] (unitree) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[9.598052] (unitree) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[9.598363] (unitree) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[9.598456] (unitree) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[9.598529] (unitree) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[9.598574] (unitree) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[9.598633] (unitree) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[9.598677] (unitree) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[9.598740] (unitree) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[9.598784] (unitree) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[9.610281] (-) TimerEvent: {}
+[9.713748] (-) TimerEvent: {}
+[9.817821] (-) TimerEvent: {}
+[9.921834] (-) TimerEvent: {}
+[10.025788] (-) TimerEvent: {}
+[10.130084] (-) TimerEvent: {}
+[10.234508] (-) TimerEvent: {}
+[10.338869] (-) TimerEvent: {}
+[10.442774] (-) TimerEvent: {}
+[10.547021] (-) TimerEvent: {}
+[10.651191] (-) TimerEvent: {}
+[10.755087] (-) TimerEvent: {}
+[10.859021] (-) TimerEvent: {}
+[10.962992] (-) TimerEvent: {}
+[11.066933] (-) TimerEvent: {}
+[11.170892] (-) TimerEvent: {}
+[11.274841] (-) TimerEvent: {}
+[11.378849] (-) TimerEvent: {}
+[11.482673] (-) TimerEvent: {}
+[11.583468] (-) TimerEvent: {}
+[11.687349] (-) TimerEvent: {}
+[11.791253] (-) TimerEvent: {}
+[11.895166] (-) TimerEvent: {}
+[11.998766] (-) TimerEvent: {}
+[12.102581] (-) TimerEvent: {}
+[12.206380] (-) TimerEvent: {}
+[12.310264] (-) TimerEvent: {}
+[12.414181] (-) TimerEvent: {}
+[12.517999] (-) TimerEvent: {}
+[12.621821] (-) TimerEvent: {}
+[12.725980] (-) TimerEvent: {}
+[12.830689] (-) TimerEvent: {}
+[12.935385] (-) TimerEvent: {}
+[13.039555] (-) TimerEvent: {}
+[13.143783] (-) TimerEvent: {}
+[13.248067] (-) TimerEvent: {}
+[13.352398] (-) TimerEvent: {}
+[13.456726] (-) TimerEvent: {}
+[13.561050] (-) TimerEvent: {}
+[13.665305] (-) TimerEvent: {}
+[13.769624] (-) TimerEvent: {}
+[13.873954] (-) TimerEvent: {}
+[13.978215] (-) TimerEvent: {}
+[14.082473] (-) TimerEvent: {}
+[14.184769] (-) TimerEvent: {}
+[14.289063] (-) TimerEvent: {}
+[14.392962] (-) TimerEvent: {}
+[14.497313] (-) TimerEvent: {}
+[14.601619] (-) TimerEvent: {}
+[14.705600] (-) TimerEvent: {}
+[14.809903] (-) TimerEvent: {}
+[14.914251] (-) TimerEvent: {}
+[15.018590] (-) TimerEvent: {}
+[15.122857] (-) TimerEvent: {}
+[15.227194] (-) TimerEvent: {}
+[15.331534] (-) TimerEvent: {}
+[15.436020] (-) TimerEvent: {}
+[15.540415] (-) TimerEvent: {}
+[15.644715] (-) TimerEvent: {}
+[15.749009] (-) TimerEvent: {}
+[15.853322] (-) TimerEvent: {}
+[15.958259] (-) TimerEvent: {}
+[16.062812] (-) TimerEvent: {}
+[16.166935] (-) TimerEvent: {}
+[16.271394] (-) TimerEvent: {}
+[16.375687] (-) TimerEvent: {}
+[16.480167] (-) TimerEvent: {}
+[16.581715] (-) TimerEvent: {}
+[16.682402] (-) TimerEvent: {}
+[16.782906] (-) TimerEvent: {}
+[16.883722] (-) TimerEvent: {}
+[16.988149] (-) TimerEvent: {}
+[17.092562] (-) TimerEvent: {}
+[17.193339] (-) TimerEvent: {}
+[17.293941] (-) TimerEvent: {}
+[17.394907] (-) TimerEvent: {}
+[17.495838] (-) TimerEvent: {}
+[17.600445] (-) TimerEvent: {}
+[17.704988] (-) TimerEvent: {}
+[17.809333] (-) TimerEvent: {}
+[17.913971] (-) TimerEvent: {}
+[18.018779] (-) TimerEvent: {}
+[18.123288] (-) TimerEvent: {}
+[18.227358] (-) TimerEvent: {}
+[18.331828] (-) TimerEvent: {}
+[18.436200] (-) TimerEvent: {}
+[18.540616] (-) TimerEvent: {}
+[18.644922] (-) TimerEvent: {}
+[18.749234] (-) TimerEvent: {}
+[18.853531] (-) TimerEvent: {}
+[18.957789] (-) TimerEvent: {}
+[19.062032] (-) TimerEvent: {}
+[19.166419] (-) TimerEvent: {}
+[19.270571] (-) TimerEvent: {}
+[19.374894] (-) TimerEvent: {}
+[19.479198] (-) TimerEvent: {}
+[19.580236] (-) TimerEvent: {}
+[19.681414] (-) TimerEvent: {}
+[19.781807] (-) TimerEvent: {}
+[19.882253] (-) TimerEvent: {}
+[19.982784] (-) TimerEvent: {}
+[20.083329] (-) TimerEvent: {}
+[20.184151] (-) TimerEvent: {}
+[20.284618] (-) TimerEvent: {}
+[20.385884] (-) TimerEvent: {}
+[20.486739] (-) TimerEvent: {}
+[20.587348] (-) TimerEvent: {}
+[20.688009] (-) TimerEvent: {}
+[20.788924] (-) TimerEvent: {}
+[20.889547] (-) TimerEvent: {}
+[20.990208] (-) TimerEvent: {}
+[21.090966] (-) TimerEvent: {}
+[21.192005] (-) TimerEvent: {}
+[21.292815] (-) TimerEvent: {}
+[21.393735] (-) TimerEvent: {}
+[21.494585] (-) TimerEvent: {}
+[21.595453] (-) TimerEvent: {}
+[21.696354] (-) TimerEvent: {}
+[21.796996] (-) TimerEvent: {}
+[21.897826] (-) TimerEvent: {}
+[21.998537] (-) TimerEvent: {}
+[22.099237] (-) TimerEvent: {}
+[22.199844] (-) TimerEvent: {}
+[22.300516] (-) TimerEvent: {}
+[22.401234] (-) TimerEvent: {}
+[22.502143] (-) TimerEvent: {}
+[22.602981] (-) TimerEvent: {}
+[22.703745] (-) TimerEvent: {}
+[22.804627] (-) TimerEvent: {}
+[22.905754] (-) TimerEvent: {}
+[23.006300] (-) TimerEvent: {}
+[23.106947] (-) TimerEvent: {}
+[23.207560] (-) TimerEvent: {}
+[23.308787] (-) TimerEvent: {}
+[23.409463] (-) TimerEvent: {}
+[23.510165] (-) TimerEvent: {}
+[23.610943] (-) TimerEvent: {}
+[23.711845] (-) TimerEvent: {}
+[23.812781] (-) TimerEvent: {}
+[23.913776] (-) TimerEvent: {}
+[24.014862] (-) TimerEvent: {}
+[24.115719] (-) TimerEvent: {}
+[24.216661] (-) TimerEvent: {}
+[24.317703] (-) TimerEvent: {}
+[24.418841] (-) TimerEvent: {}
+[24.520226] (-) TimerEvent: {}
+[24.621865] (-) TimerEvent: {}
+[24.723244] (-) TimerEvent: {}
+[24.824369] (-) TimerEvent: {}
+[24.925542] (-) TimerEvent: {}
+[25.026584] (-) TimerEvent: {}
+[25.127836] (-) TimerEvent: {}
+[25.229202] (-) TimerEvent: {}
+[25.330026] (-) TimerEvent: {}
+[25.430767] (-) TimerEvent: {}
+[25.531672] (-) TimerEvent: {}
+[25.632248] (-) TimerEvent: {}
+[25.732808] (-) TimerEvent: {}
+[25.833542] (-) TimerEvent: {}
+[25.934531] (-) TimerEvent: {}
+[26.035799] (-) TimerEvent: {}
+[26.137066] (-) TimerEvent: {}
+[26.237965] (-) TimerEvent: {}
+[26.339040] (-) TimerEvent: {}
+[26.440265] (-) TimerEvent: {}
+[26.541558] (-) TimerEvent: {}
+[26.645733] (-) TimerEvent: {}
+[26.746695] (-) TimerEvent: {}
+[26.847684] (-) TimerEvent: {}
+[26.948383] (-) TimerEvent: {}
+[27.049186] (-) TimerEvent: {}
+[27.149861] (-) TimerEvent: {}
+[27.250867] (-) TimerEvent: {}
+[27.351785] (-) TimerEvent: {}
+[27.452764] (-) TimerEvent: {}
+[27.553681] (-) TimerEvent: {}
+[27.654628] (-) TimerEvent: {}
+[27.755584] (-) TimerEvent: {}
+[27.856558] (-) TimerEvent: {}
+[27.957460] (-) TimerEvent: {}
+[28.058162] (-) TimerEvent: {}
+[28.159079] (-) TimerEvent: {}
+[28.260348] (-) TimerEvent: {}
+[28.361244] (-) TimerEvent: {}
+[28.462066] (-) TimerEvent: {}
+[28.563137] (-) TimerEvent: {}
+[28.664097] (-) TimerEvent: {}
+[28.765091] (-) TimerEvent: {}
+[28.866442] (-) TimerEvent: {}
+[28.967445] (-) TimerEvent: {}
+[29.068364] (-) TimerEvent: {}
+[29.169411] (-) TimerEvent: {}
+[29.270409] (-) TimerEvent: {}
+[29.371429] (-) TimerEvent: {}
+[29.475339] (-) TimerEvent: {}
+[29.579021] (-) TimerEvent: {}
+[29.679876] (-) TimerEvent: {}
+[29.781765] (-) TimerEvent: {}
+[29.885761] (-) TimerEvent: {}
+[29.989658] (-) TimerEvent: {}
+[30.090779] (-) TimerEvent: {}
+[30.194793] (-) TimerEvent: {}
+[30.298785] (-) TimerEvent: {}
+[30.399445] (-) TimerEvent: {}
+[30.500277] (-) TimerEvent: {}
+[30.604285] (-) TimerEvent: {}
+[30.708138] (-) TimerEvent: {}
+[30.812249] (-) TimerEvent: {}
+[30.916531] (-) TimerEvent: {}
+[31.020880] (-) TimerEvent: {}
+[31.124797] (-) TimerEvent: {}
+[31.228911] (-) TimerEvent: {}
+[31.333009] (-) TimerEvent: {}
+[31.436935] (-) TimerEvent: {}
+[31.541044] (-) TimerEvent: {}
+[31.645187] (-) TimerEvent: {}
+[31.749252] (-) TimerEvent: {}
+[31.853162] (-) TimerEvent: {}
+[31.957111] (-) TimerEvent: {}
+[32.061186] (-) TimerEvent: {}
+[32.165357] (-) TimerEvent: {}
+[32.269609] (-) TimerEvent: {}
+[32.374254] (-) TimerEvent: {}
+[32.478277] (-) TimerEvent: {}
+[32.582246] (-) TimerEvent: {}
+[32.686262] (-) TimerEvent: {}
+[32.790074] (-) TimerEvent: {}
+[32.893922] (-) TimerEvent: {}
+[32.997875] (-) TimerEvent: {}
+[33.101819] (-) TimerEvent: {}
+[33.204097] (-) TimerEvent: {}
+[33.308104] (-) TimerEvent: {}
+[33.412121] (-) TimerEvent: {}
+[33.516167] (-) TimerEvent: {}
+[33.616780] (-) TimerEvent: {}
+[33.717481] (-) TimerEvent: {}
+[33.821705] (-) TimerEvent: {}
+[33.925535] (-) TimerEvent: {}
+[34.029415] (-) TimerEvent: {}
+[34.133382] (-) TimerEvent: {}
+[34.237321] (-) TimerEvent: {}
+[34.341195] (-) TimerEvent: {}
+[34.441611] (-) TimerEvent: {}
+[34.542589] (-) TimerEvent: {}
+[34.643119] (-) TimerEvent: {}
+[34.744099] (-) TimerEvent: {}
+[34.845223] (-) TimerEvent: {}
+[34.949760] (-) TimerEvent: {}
+[35.054025] (-) TimerEvent: {}
+[35.158137] (-) TimerEvent: {}
+[35.262023] (-) TimerEvent: {}
+[35.362496] (-) TimerEvent: {}
+[35.465853] (-) TimerEvent: {}
+[35.571132] (-) TimerEvent: {}
+[35.675533] (-) TimerEvent: {}
+[35.779166] (-) TimerEvent: {}
+[35.880406] (-) TimerEvent: {}
+[35.984774] (-) TimerEvent: {}
+[36.089193] (-) TimerEvent: {}
+[36.193266] (-) TimerEvent: {}
+[36.297193] (-) TimerEvent: {}
+[36.401127] (-) TimerEvent: {}
+[36.505103] (-) TimerEvent: {}
+[36.609044] (-) TimerEvent: {}
+[36.712915] (-) TimerEvent: {}
+[36.816521] (-) TimerEvent: {}
+[36.920482] (-) TimerEvent: {}
+[37.024465] (-) TimerEvent: {}
+[37.128394] (-) TimerEvent: {}
+[37.232431] (-) TimerEvent: {}
+[37.336487] (-) TimerEvent: {}
+[37.440404] (-) TimerEvent: {}
+[37.544485] (-) TimerEvent: {}
+[37.648520] (-) TimerEvent: {}
+[37.749602] (-) TimerEvent: {}
+[37.852017] (-) TimerEvent: {}
+[37.956039] (-) TimerEvent: {}
+[38.059960] (-) TimerEvent: {}
+[38.163846] (-) TimerEvent: {}
+[38.267689] (-) TimerEvent: {}
+[38.369050] (-) TimerEvent: {}
+[38.472932] (-) TimerEvent: {}
+[38.576829] (-) TimerEvent: {}
+[38.680734] (-) TimerEvent: {}
+[38.784636] (-) TimerEvent: {}
+[38.888389] (-) TimerEvent: {}
+[38.992222] (-) TimerEvent: {}
+[39.096211] (-) TimerEvent: {}
+[39.200251] (-) TimerEvent: {}
+[39.301271] (-) TimerEvent: {}
+[39.401756] (-) TimerEvent: {}
+[39.502488] (-) TimerEvent: {}
+[39.606469] (-) TimerEvent: {}
+[39.710355] (-) TimerEvent: {}
+[39.814230] (-) TimerEvent: {}
+[39.917903] (-) TimerEvent: {}
+[40.021916] (-) TimerEvent: {}
+[40.125903] (-) TimerEvent: {}
+[40.229877] (-) TimerEvent: {}
+[40.333805] (-) TimerEvent: {}
+[40.437684] (-) TimerEvent: {}
+[40.541513] (-) TimerEvent: {}
+[40.645400] (-) TimerEvent: {}
+[40.749313] (-) TimerEvent: {}
+[40.853191] (-) TimerEvent: {}
+[40.956734] (-) TimerEvent: {}
+[41.060627] (-) TimerEvent: {}
+[41.164559] (-) TimerEvent: {}
+[41.268473] (-) TimerEvent: {}
+[41.372519] (-) TimerEvent: {}
+[41.476404] (-) TimerEvent: {}
+[41.580293] (-) TimerEvent: {}
+[41.684188] (-) TimerEvent: {}
+[41.788064] (-) TimerEvent: {}
+[41.892066] (-) TimerEvent: {}
+[41.995787] (-) TimerEvent: {}
+[42.099774] (-) TimerEvent: {}
+[42.203950] (-) TimerEvent: {}
+[42.308133] (-) TimerEvent: {}
+[42.412051] (-) TimerEvent: {}
+[42.515893] (-) TimerEvent: {}
+[42.619761] (-) TimerEvent: {}
+[42.723638] (-) TimerEvent: {}
+[42.827500] (-) TimerEvent: {}
+[42.931386] (-) TimerEvent: {}
+[43.034971] (-) TimerEvent: {}
+[43.138805] (-) TimerEvent: {}
+[43.242666] (-) TimerEvent: {}
+[43.346577] (-) TimerEvent: {}
+[43.450423] (-) TimerEvent: {}
+[43.554389] (-) TimerEvent: {}
+[43.658459] (-) TimerEvent: {}
+[43.762367] (-) TimerEvent: {}
+[43.866212] (-) TimerEvent: {}
+[43.970101] (-) TimerEvent: {}
+[44.074017] (-) TimerEvent: {}
+[44.177964] (-) TimerEvent: {}
+[44.281858] (-) TimerEvent: {}
+[44.385798] (-) TimerEvent: {}
+[44.490099] (-) TimerEvent: {}
+[44.594269] (-) TimerEvent: {}
+[44.698396] (-) TimerEvent: {}
+[44.802263] (-) TimerEvent: {}
+[44.904580] (-) TimerEvent: {}
+[45.008673] (-) TimerEvent: {}
+[45.112524] (-) TimerEvent: {}
+[45.216440] (-) TimerEvent: {}
+[45.320276] (-) TimerEvent: {}
+[45.423536] (-) TimerEvent: {}
+[45.527828] (-) TimerEvent: {}
+[45.631921] (-) TimerEvent: {}
+[45.735865] (-) TimerEvent: {}
+[45.839789] (-) TimerEvent: {}
+[45.943660] (-) TimerEvent: {}
+[46.047632] (-) TimerEvent: {}
+[46.148753] (-) TimerEvent: {}
+[46.252851] (-) TimerEvent: {}
+[46.356780] (-) TimerEvent: {}
+[46.460708] (-) TimerEvent: {}
+[46.564539] (-) TimerEvent: {}
+[46.668566] (-) TimerEvent: {}
+[46.772681] (-) TimerEvent: {}
+[46.876600] (-) TimerEvent: {}
+[46.980564] (-) TimerEvent: {}
+[47.084720] (-) TimerEvent: {}
+[47.188486] (-) TimerEvent: {}
+[47.292392] (-) TimerEvent: {}
+[47.396286] (-) TimerEvent: {}
+[47.500378] (-) TimerEvent: {}
+[47.604341] (-) TimerEvent: {}
+[47.708273] (-) TimerEvent: {}
+[47.812295] (-) TimerEvent: {}
+[47.916260] (-) TimerEvent: {}
+[48.020174] (-) TimerEvent: {}
+[48.124052] (-) TimerEvent: {}
+[48.227882] (-) TimerEvent: {}
+[48.331941] (-) TimerEvent: {}
+[48.435860] (-) TimerEvent: {}
+[48.539692] (-) TimerEvent: {}
+[48.643540] (-) TimerEvent: {}
+[48.747363] (-) TimerEvent: {}
+[48.851457] (-) TimerEvent: {}
+[48.955595] (-) TimerEvent: {}
+[49.059497] (-) TimerEvent: {}
+[49.163454] (-) TimerEvent: {}
+[49.267093] (-) TimerEvent: {}
+[49.371034] (-) TimerEvent: {}
+[49.475017] (-) TimerEvent: {}
+[49.579200] (-) TimerEvent: {}
+[49.683227] (-) TimerEvent: {}
+[49.787044] (-) TimerEvent: {}
+[49.890897] (-) TimerEvent: {}
+[49.994847] (-) TimerEvent: {}
+[50.098760] (-) TimerEvent: {}
+[50.202729] (-) TimerEvent: {}
+[50.306600] (-) TimerEvent: {}
+[50.410801] (-) TimerEvent: {}
+[50.514950] (-) TimerEvent: {}
+[50.618911] (-) TimerEvent: {}
+[50.722980] (-) TimerEvent: {}
+[50.827214] (-) TimerEvent: {}
+[50.931109] (-) TimerEvent: {}
+[51.035087] (-) TimerEvent: {}
+[51.139019] (-) TimerEvent: {}
+[51.242930] (-) TimerEvent: {}
+[51.346597] (-) TimerEvent: {}
+[51.450518] (-) TimerEvent: {}
+[51.554517] (-) TimerEvent: {}
+[51.658496] (-) TimerEvent: {}
+[51.762429] (-) TimerEvent: {}
+[51.866306] (-) TimerEvent: {}
+[51.967146] (-) TimerEvent: {}
+[52.068015] (-) TimerEvent: {}
+[52.169710] (-) TimerEvent: {}
+[52.271237] (-) TimerEvent: {}
+[52.372052] (-) TimerEvent: {}
+[52.472649] (-) TimerEvent: {}
+[52.573450] (-) TimerEvent: {}
+[52.677817] (-) TimerEvent: {}
+[52.781825] (-) TimerEvent: {}
+[52.885914] (-) TimerEvent: {}
+[52.989876] (-) TimerEvent: {}
+[53.085420] (unitree) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[53.090127] (-) TimerEvent: {}
+[53.093424] (unitree) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[53.093766] (unitree) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[53.193655] (-) TimerEvent: {}
+[53.297787] (-) TimerEvent: {}
+[53.402660] (-) TimerEvent: {}
+[53.507045] (-) TimerEvent: {}
+[53.611174] (-) TimerEvent: {}
+[53.715229] (-) TimerEvent: {}
+[53.819172] (-) TimerEvent: {}
+[53.923128] (-) TimerEvent: {}
+[54.027058] (-) TimerEvent: {}
+[54.127814] (-) TimerEvent: {}
+[54.231082] (-) TimerEvent: {}
+[54.335285] (-) TimerEvent: {}
+[54.439265] (-) TimerEvent: {}
+[54.543214] (-) TimerEvent: {}
+[54.647168] (-) TimerEvent: {}
+[54.751085] (-) TimerEvent: {}
+[54.854988] (-) TimerEvent: {}
+[54.958812] (-) TimerEvent: {}
+[55.062920] (-) TimerEvent: {}
+[55.166089] (-) TimerEvent: {}
+[55.270063] (-) TimerEvent: {}
+[55.371154] (-) TimerEvent: {}
+[55.474805] (-) TimerEvent: {}
+[55.578687] (-) TimerEvent: {}
+[55.682625] (-) TimerEvent: {}
+[55.786674] (-) TimerEvent: {}
+[55.890677] (-) TimerEvent: {}
+[55.994563] (-) TimerEvent: {}
+[56.098560] (-) TimerEvent: {}
+[56.202447] (-) TimerEvent: {}
+[56.306357] (-) TimerEvent: {}
+[56.353837] (unitree) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[56.370008] (unitree) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[56.394914] (unitree) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[56.395896] (unitree) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[56.406625] (-) TimerEvent: {}
+[56.509718] (-) TimerEvent: {}
+[56.613613] (-) TimerEvent: {}
+[56.668007] (unitree) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[56.674841] (unitree) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[56.688701] (unitree) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[56.714079] (-) TimerEvent: {}
+[56.720391] (unitree) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[56.722590] (unitree) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[56.723146] (unitree) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[56.723985] (unitree) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[56.724675] (unitree) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[56.814486] (-) TimerEvent: {}
+[56.915693] (-) TimerEvent: {}
+[57.016688] (-) TimerEvent: {}
+[57.121325] (-) TimerEvent: {}
+[57.219569] (unitree) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[57.221598] (-) TimerEvent: {}
+[57.222393] (unitree) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[57.223165] (unitree) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[57.223383] (unitree) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[57.227122] (unitree) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[57.227443] (unitree) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[57.325151] (-) TimerEvent: {}
+[57.429541] (-) TimerEvent: {}
+[57.530982] (-) TimerEvent: {}
+[57.631680] (-) TimerEvent: {}
+[57.732290] (-) TimerEvent: {}
+[57.833187] (-) TimerEvent: {}
+[57.934103] (-) TimerEvent: {}
+[58.034831] (-) TimerEvent: {}
+[58.135717] (-) TimerEvent: {}
+[58.236519] (-) TimerEvent: {}
+[58.340711] (-) TimerEvent: {}
+[58.444709] (-) TimerEvent: {}
+[58.548573] (-) TimerEvent: {}
+[58.652628] (-) TimerEvent: {}
+[58.756716] (-) TimerEvent: {}
+[58.860715] (-) TimerEvent: {}
+[58.964846] (-) TimerEvent: {}
+[59.069131] (-) TimerEvent: {}
+[59.173212] (-) TimerEvent: {}
+[59.277216] (-) TimerEvent: {}
+[59.378205] (-) TimerEvent: {}
+[59.482147] (-) TimerEvent: {}
+[59.585905] (-) TimerEvent: {}
+[59.689763] (-) TimerEvent: {}
+[59.793713] (-) TimerEvent: {}
+[59.894402] (-) TimerEvent: {}
+[59.995121] (-) TimerEvent: {}
+[60.095805] (-) TimerEvent: {}
+[60.196668] (-) TimerEvent: {}
+[60.279612] (unitree) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[60.293873] (unitree) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[60.297028] (-) TimerEvent: {}
+[60.330536] (unitree) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[60.340917] (unitree) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[60.370560] (unitree) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[60.371063] (unitree) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[60.371243] (unitree) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[60.375772] (unitree) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[60.377554] (unitree) StdoutLine: {'line': b'-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)\n'}
+[60.397954] (-) TimerEvent: {}
+[60.413675] (unitree) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[60.415987] (unitree) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[60.501035] (-) TimerEvent: {}
+[60.604719] (-) TimerEvent: {}
+[60.709722] (-) TimerEvent: {}
+[60.813868] (-) TimerEvent: {}
+[60.917698] (-) TimerEvent: {}
+[61.021640] (-) TimerEvent: {}
+[61.125572] (-) TimerEvent: {}
+[61.229532] (-) TimerEvent: {}
+[61.333638] (-) TimerEvent: {}
+[61.437574] (-) TimerEvent: {}
+[61.541586] (-) TimerEvent: {}
+[61.645370] (-) TimerEvent: {}
+[61.749458] (-) TimerEvent: {}
+[61.853462] (-) TimerEvent: {}
+[61.957344] (-) TimerEvent: {}
+[62.058115] (-) TimerEvent: {}
+[62.158869] (-) TimerEvent: {}
+[62.263128] (-) TimerEvent: {}
+[62.367470] (-) TimerEvent: {}
+[62.471501] (-) TimerEvent: {}
+[62.575499] (-) TimerEvent: {}
+[62.679244] (-) TimerEvent: {}
+[62.783340] (-) TimerEvent: {}
+[62.829056] (unitree) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[62.830010] (unitree) StdoutLine: {'line': b'-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[62.832234] (unitree) StdoutLine: {'line': b'-- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)\n'}
+[62.858504] (unitree) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[62.884615] (-) TimerEvent: {}
+[62.951561] (unitree) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[62.957364] (unitree) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[62.959716] (unitree) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[62.960388] (unitree) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[62.962229] (unitree) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[62.968401] (unitree) StdoutLine: {'line': b'-- Configuring done\n'}
+[62.985365] (-) TimerEvent: {}
+[63.063126] (unitree) StdoutLine: {'line': b'-- Generating done\n'}
+[63.066602] (unitree) StdoutLine: {'line': b'-- Build files have been written to: /home/aashini/quadra/build/unitree\n'}
+[63.085795] (-) TimerEvent: {}
+[63.094930] (unitree) CommandEnded: {'returncode': 0}
+[63.096477] (unitree) JobProgress: {'identifier': 'unitree', 'progress': 'install'}
+[63.104415] (unitree) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/aashini/quadra/build/unitree'], 'cwd': '/home/aashini/quadra/build/unitree', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/aashini/aash/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'aashini'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/aashini'), ('OLDPWD', '/home/aashini'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'aashini'), ('ONSHAPE_SECRET_KEY', 'ECuBFssnApER2P3ZEjRt2DPQwaeAj58RgKeuL2sCAxqjKYxl'), ('NAME', 'DESKTOP-GCGNIPN'), ('WSL_INTEROP', '/run/WSL/4059_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/home/aashini/.local/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/aashini/.local/bin:/home/aashini/.local/bin:/home/aashini/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/WindowsApps/MicrosoftCorporationII.WindowsSubsystemForLinux_2.4.13.0_x64__8wekyb3d8bbwe:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/:/mnt/c/Program Files/IVI Foundation/VISA/Win64/Bin/:/mnt/c/Program Files (x86)/National Instruments/Shared/LabVIEW CLI:/mnt/c/Program Files (x86)/IVI Foundation/IVI/Bin/:/mnt/c/Program Files/IVI Foundation/IVI/Bin/:/mnt/c/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA app/NvDLISR:/mnt/c/Program Files/MATLAB/R2025a/bin:/mnt/c/Users/Aashini/.cargo/bin:/mnt/c/Users/Aashini/Documents/ANACONDA:/mnt/c/Users/Aashini/Documents/ANACONDA/Library/mingw-w64/bin:/mnt/c/Users/Aashini/Documents/ANACONDA/Library/usr/bin:/mnt/c/Users/Aashini/Documents/ANACONDA/Library/bin:/mnt/c/Users/Aashini/Documents/ANACONDA/Scripts:/mnt/c/Users/Aashini/AppData/Local/Programs/Python/Python311/Scripts/:/mnt/c/Users/Aashini/AppData/Local/Programs/Python/Python311/:/mnt/c/Program Files/MySQL/MySQL Shell 8.0/bin/:/mnt/c/Users/Aashini/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/Aashini/Desktop/ROBOTICS SOFTWARE/Microsoft VS Code/bin:/mnt/c/Users/Aashini/.dotnet/tools:/snap/bin'), ('FASTRTPS_DEFAULT_PROFILES_FILE', '/home/aashini/.ros/fastdds_profile.xml'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/aashini/aash/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/aashini/quadra/build/unitree'), ('TURTLEBOT3_MODEL', 'burger'), ('ONSHAPE_ACCESS_KEY', 'xSzP2mSHygiCiLEA3TUhpu3s'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('ONSHAPE_API', 'https://cad.onshape.com'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/aashini/aash/install:/opt/ros/humble'), ('WSLENV', '')]), 'shell': False}
+[63.109416] (unitree) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[63.109758] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/lib/unitree/teleop.py\n'}
+[63.109879] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/lib/unitree/joint_control_gui.py\n'}
+[63.110030] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/launch\n'}
+[63.110171] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/launch/go2_urdflaunch.py\n'}
+[63.110275] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/urdf\n'}
+[63.110368] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/urdf/go2_urdf.urdf\n'}
+[63.110791] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/config\n'}
+[63.111045] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/config/controllers.yaml\n'}
+[63.111523] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/mesh\n'}
+[63.111578] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/mesh/thigh.dae\n'}
+[63.111621] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/mesh/calf_mirror.dae\n'}
+[63.111671] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/mesh/base.dae\n'}
+[63.111712] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/mesh/thigh_mirror.dae\n'}
+[63.111929] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/mesh/hip.dae\n'}
+[63.111979] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/mesh/calf.dae\n'}
+[63.112018] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/mesh/foot.dae\n'}
+[63.112448] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/worlds\n'}
+[63.112550] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/worlds/empty.world\n'}
+[63.112616] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/urdf\n'}
+[63.112656] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/ament_index/resource_index/package_run_dependencies/unitree\n'}
+[63.112691] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/ament_index/resource_index/parent_prefix_path/unitree\n'}
+[63.112728] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/environment/ament_prefix_path.sh\n'}
+[63.112780] (unitree) StdoutLine: {'line': b'-- Installing: /home/aashini/quadra/install/unitree/share/unitree/environment/ament_prefix_path.dsv\n'}
+[63.112877] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/environment/path.sh\n'}
+[63.112911] (unitree) StdoutLine: {'line': b'-- Installing: /home/aashini/quadra/install/unitree/share/unitree/environment/path.dsv\n'}
+[63.112951] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/local_setup.bash\n'}
+[63.112990] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/local_setup.sh\n'}
+[63.113026] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/local_setup.zsh\n'}
+[63.113060] (unitree) StdoutLine: {'line': b'-- Installing: /home/aashini/quadra/install/unitree/share/unitree/local_setup.dsv\n'}
+[63.113096] (unitree) StdoutLine: {'line': b'-- Installing: /home/aashini/quadra/install/unitree/share/unitree/package.dsv\n'}
+[63.113130] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/ament_index/resource_index/packages/unitree\n'}
+[63.113165] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/cmake/unitreeConfig.cmake\n'}
+[63.113198] (unitree) StdoutLine: {'line': b'-- Up-to-date: /home/aashini/quadra/install/unitree/share/unitree/cmake/unitreeConfig-version.cmake\n'}
+[63.113279] (unitree) StdoutLine: {'line': b'-- Installing: /home/aashini/quadra/install/unitree/share/unitree/package.xml\n'}
+[63.115431] (unitree) CommandEnded: {'returncode': 0}
+[63.130313] (unitree) JobEnded: {'identifier': 'unitree', 'rc': 0}
+[63.133408] (-) EventReactorShutdown: {}
