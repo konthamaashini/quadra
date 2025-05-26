@@ -1,0 +1,144 @@
+[0.232s] Invoking command in '/home/aashini/quadra/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aashini/quadra/src/gazebo_ros2_control/gazebo_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/home/aashini/quadra/install/gazebo_ros2_control_demos
+[0.648s] -- The C compiler identification is GNU 11.4.0
+[1.897s] -- The CXX compiler identification is GNU 11.4.0
+[2.561s] -- Detecting C compiler ABI info
+[2.850s] -- Detecting C compiler ABI info - done
+[2.857s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.860s] -- Detecting C compile features
+[2.861s] -- Detecting C compile features - done
+[2.864s] -- Detecting CXX compiler ABI info
+[3.133s] -- Detecting CXX compiler ABI info - done
+[3.138s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.138s] -- Detecting CXX compile features
+[3.139s] -- Detecting CXX compile features - done
+[3.143s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.271s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.350s] -- Found control_msgs: 4.7.0 (/opt/ros/humble/share/control_msgs/cmake)
+[3.542s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.548s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.558s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.571s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.589s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.709s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[3.746s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.749s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.640s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.838s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.359s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.374s] -- Looking for pthread.h
+[8.638s] -- Looking for pthread.h - found
+[8.639s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.890s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.891s] -- Found Threads: TRUE  
+[8.923s] -- Found rclcpp_action: 16.0.11 (/opt/ros/humble/share/rclcpp_action/cmake)
+[8.936s] -- Found ament_cmake_gtest: 1.3.11 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[8.938s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[9.014s] -- Added test 'copyright' to check source files copyright and LICENSE
+[9.017s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[9.018s] -- Configured cppcheck include dirs: 
+[9.018s] -- Configured cppcheck exclude dirs and/or files: 
+[9.020s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[9.020s] -- Configured cpplint exclude dirs and/or files: 
+[9.020s] -- Added test 'flake8' to check Python code syntax and style conventions
+[9.021s] -- Added test 'lint_cmake' to check CMake code style
+[9.022s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.023s] -- Added test 'uncrustify' to check C / C++ code style
+[9.023s] -- Configured uncrustify additional arguments: 
+[9.024s] -- Added test 'xmllint' to check XML markup files
+[9.025s] -- Configuring done
+[9.050s] -- Generating done
+[9.061s] -- Build files have been written to: /home/aashini/quadra/build/gazebo_ros2_control_demos
+[9.075s] Invoked command in '/home/aashini/quadra/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/aashini/quadra/src/gazebo_ros2_control/gazebo_ros2_control_demos -DCMAKE_INSTALL_PREFIX=/home/aashini/quadra/install/gazebo_ros2_control_demos
+[9.079s] Invoking command in '/home/aashini/quadra/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aashini/quadra/build/gazebo_ros2_control_demos -- -j16 -l16
+[9.136s] [ 42%] [32mBuilding CXX object CMakeFiles/example_gripper.dir/examples/example_gripper.cpp.o[0m
+[9.136s] [ 42%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o[0m
+[9.136s] [ 42%] [32mBuilding CXX object CMakeFiles/example_position_pid.dir/examples/example_position_pid.cpp.o[0m
+[9.136s] [ 42%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[9.136s] [ 42%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[9.136s] [ 42%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o[0m
+[9.141s] [ 50%] [32mBuilding CXX object CMakeFiles/example_tricycle_drive.dir/examples/example_tricycle_drive.cpp.o[0m
+[16.408s] [ 57%] [32m[1mLinking CXX executable example_diff_drive[0m
+[16.478s] [ 64%] [32m[1mLinking CXX executable example_velocity[0m
+[16.495s] [ 71%] [32m[1mLinking CXX executable example_tricycle_drive[0m
+[16.499s] [ 78%] [32m[1mLinking CXX executable example_effort[0m
+[16.510s] [ 85%] [32m[1mLinking CXX executable example_position_pid[0m
+[16.558s] [ 92%] [32m[1mLinking CXX executable example_gripper[0m
+[16.907s] [ 92%] Built target example_effort
+[16.915s] [ 92%] Built target example_diff_drive
+[16.927s] [ 92%] Built target example_velocity
+[16.930s] [ 92%] Built target example_tricycle_drive
+[16.971s] [ 92%] Built target example_position_pid
+[16.981s] [ 92%] Built target example_gripper
+[17.088s] [100%] [32m[1mLinking CXX executable example_position[0m
+[17.535s] [100%] Built target example_position
+[17.551s] Invoked command in '/home/aashini/quadra/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/aashini/quadra/build/gazebo_ros2_control_demos -- -j16 -l16
+[17.555s] Invoking command in '/home/aashini/quadra/build/gazebo_ros2_control_demos': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aashini/quadra/build/gazebo_ros2_control_demos
+[17.566s] -- Install configuration: ""
+[17.567s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch
+[17.567s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive.launch.py
+[17.568s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive_namespaced.launch.py
+[17.569s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_effort.launch.py
+[17.570s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_position_pids_in_yaml.launch.py
+[17.571s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/diff_drive_pair_namespaced.launch.py
+[17.571s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_position.launch.py
+[17.571s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/tricycle_drive.launch.py
+[17.572s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_position.launch.py
+[17.572s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_velocity_pid.launch.py
+[17.573s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/pendulum_example_effort.launch.py
+[17.573s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/vertical_cart_example_position_pid.launch.py
+[17.574s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/gripper_mimic_joint_example.launch.py
+[17.574s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//launch/cart_example_velocity.launch.py
+[17.575s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config
+[17.575s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller.yaml
+[17.575s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_velocity.yaml
+[17.576s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_position_with_pids.yaml
+[17.576s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/config.rviz
+[17.577s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/tricycle_drive_controller.yaml
+[17.578s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller.yaml
+[17.578s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_position.yaml
+[17.579s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/diff_drive_controller_namespaced.yaml
+[17.579s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/cart_controller_effort.yaml
+[17.580s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//config/gripper_controller.yaml
+[17.581s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf
+[17.581s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_tricycle_drive.xacro.urdf
+[17.582s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[17.583s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_gripper_mimic_joint.xacro.urdf
+[17.583s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_diff_drive_namespaced.xacro.urdf
+[17.584s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[17.585s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_position_pid.xacro.urdf
+[17.586s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_position.xacro.urdf
+[17.586s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_position_pids_in_yaml.xacro.urdf
+[17.586s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_vertical_cart_velocity_pid.xacro.urdf
+[17.587s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[17.588s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[17.588s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos//urdf/test_pendulum_effort.xacro.urdf
+[17.590s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position
+[17.592s] -- Set runtime path of "/home/aashini/quadra/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position" to ""
+[17.592s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position_pid
+[17.594s] -- Set runtime path of "/home/aashini/quadra/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_position_pid" to ""
+[17.594s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity
+[17.595s] -- Set runtime path of "/home/aashini/quadra/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_velocity" to ""
+[17.596s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort
+[17.597s] -- Set runtime path of "/home/aashini/quadra/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_effort" to ""
+[17.597s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive
+[17.599s] -- Set runtime path of "/home/aashini/quadra/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_diff_drive" to ""
+[17.599s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive
+[17.600s] -- Set runtime path of "/home/aashini/quadra/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_tricycle_drive" to ""
+[17.600s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper
+[17.602s] -- Set runtime path of "/home/aashini/quadra/install/gazebo_ros2_control_demos/lib/gazebo_ros2_control_demos/example_gripper" to ""
+[17.602s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/gazebo_ros2_control_demos
+[17.603s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/gazebo_ros2_control_demos
+[17.604s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.sh
+[17.604s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/ament_prefix_path.dsv
+[17.604s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.sh
+[17.604s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/environment/path.dsv
+[17.604s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.bash
+[17.605s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.sh
+[17.605s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.zsh
+[17.605s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/local_setup.dsv
+[17.605s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.dsv
+[17.606s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/ament_index/resource_index/packages/gazebo_ros2_control_demos
+[17.606s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig.cmake
+[17.606s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/cmake/gazebo_ros2_control_demosConfig-version.cmake
+[17.607s] -- Installing: /home/aashini/quadra/install/gazebo_ros2_control_demos/share/gazebo_ros2_control_demos/package.xml
+[17.611s] Invoked command in '/home/aashini/quadra/build/gazebo_ros2_control_demos' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/aashini/quadra/build/gazebo_ros2_control_demos

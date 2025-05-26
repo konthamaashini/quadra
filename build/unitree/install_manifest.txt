@@ -1,7 +1,10 @@
 /home/aashini/quadra/install/unitree/lib/unitree/teleop.py
 /home/aashini/quadra/install/unitree/lib/unitree/joint_control_gui.py
 /home/aashini/quadra/install/unitree/share/unitree/launch/go2_urdflaunch.py
+/home/aashini/quadra/install/unitree/share/unitree/launch/go2_gazebo.launch.py
+/home/aashini/quadra/install/unitree/share/unitree/urdf/go2_description.urdf
 /home/aashini/quadra/install/unitree/share/unitree/urdf/go2_urdf.urdf
+/home/aashini/quadra/install/unitree/share/unitree/config/controllers1.yaml
 /home/aashini/quadra/install/unitree/share/unitree/config/controllers.yaml
 /home/aashini/quadra/install/unitree/share/unitree/mesh/thigh.dae
 /home/aashini/quadra/install/unitree/share/unitree/mesh/calf_mirror.dae
