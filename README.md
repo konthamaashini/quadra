@@ -31,6 +31,10 @@ Build the package:
 cd ~/quadra
 colcon build --packages-select unitree
 source install/setup.bash
+cd ~/quadra/src
+
+Clone the gazebo_ros2_control package:
+git clone https://github.com/ros-controls
 
 To launch the simulation in Gazebo :
 ros2 launch unitree go2_urdflaunch.py
