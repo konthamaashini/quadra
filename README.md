@@ -34,7 +34,7 @@ source install/setup.bash
 cd ~/quadra/src
 
 Clone the gazebo_ros2_control package:
-git clone https://github.com/ros-controls
+git clone https://github.com/ros-controls/gazebo_ros2_control
 
 To launch the simulation in Gazebo :
 ros2 launch unitree go2_urdflaunch.py
